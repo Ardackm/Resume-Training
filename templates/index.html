@@ -16,15 +16,13 @@
                         <div class="media-body">
                             <div class="personal_text">
                                 <h6>Hello Everybody, i am</h6>
-                                <h3>Muhammet Arda Çakmak</h3>
-                                <h4>Senior Software Engineer</h4>
-                                <p>You will begin to realise why this exercise is called the Dickens Pattern (with
-                                    reference
-                                    to the ghost showing Scrooge some different futures)</p>
+                                <h3>{{ home_banner_name }}</h3>
+                                <h4>{{ home_banner_title}}</h4>
+                                <p>{{ home_banner_description }}</p>
                                 <ul class="list basic_info">
                                     <li><a href="javascript:void(0)"><i class="lnr lnr-calendar-full"></i> 27st July, 2006</a></li>
-                                    <li><a href="javascript:void(0)"><i class="lnr lnr-phone-handset"></i> +0(000) 000-00-00</a></li>
-                                    <li><a href="mailto:mardacakmak@outlook.com"><i class="lnr lnr-envelope"></i> mardacakmak@outlook.com</a></li>
+                                    <li><a href="tel:{{ contact_phone }}"><i class="lnr lnr-phone-handset"></i> {{ contact_phone }}</a></li>
+                                    <li><a href="mailto:{{ contact_mail}}"><i class="lnr lnr-envelope"></i> {{ contact_mail }}</a></li>
                                     <li><a href="javascript:void(0)"><i class="lnr lnr-home"></i> Istanbul, Turkey</a></li>
                                 </ul>
                                 <ul class="list personal_social">
@@ -58,10 +56,7 @@
                 <div class="col-lg-6">
                     <div class="welcome_text">
                         <h4>About Myself</h4>
-                        <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct
-                            standards especially in the workplace. That’s why it’s crucial that, as women, our behavior
-                            on
-                            the job is beyond reproach. inappropriate behavior is often laughed.</p>
+                        <p>{{ about_myself_welcome }}</p>
                     </div>
                 </div>
                 <div class="col-lg-6">
